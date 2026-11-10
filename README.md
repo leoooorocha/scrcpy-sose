@@ -33,10 +33,10 @@ Before launching the mirroring tool, make sure your Android device is properly c
 ### How to install
 
 1. Switch to **Desktop Mode** and open the **Konsole** terminal.
-2. Execute the installer script by running the command below:
-
-[bash]
-
+2. Copy, paste, and run the following command:
+```bash
+curl -sSL https://raw.githubusercontent.com/leoooorocha/scrcpy-sose/main/scrcpy-sose-install.sh | bash
+```
 3. Open **Steam** while still in **Desktop Mode**.
 4. In the bottom-left corner of the Steam window, click on **Add a Game** and select **Add a Non-Steam Game...**.
 5. Search for **scrcpy-sose** and check its box, then click **Add Selected Programs**.
@@ -51,6 +51,8 @@ Before launching the mirroring tool, make sure your Android device is properly c
 3. Open **Steam** while still in **Desktop Mode**.
 4. Right-click on **scrcopy-sose**
 5. Click on **Manage**, then click **Remove non-Steam game from your library**.
+
+---
 
 ### Controls & Shortcuts
 
