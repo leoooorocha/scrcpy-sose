@@ -46,7 +46,9 @@ curl -sSL https://raw.githubusercontent.com/leoooorocha/scrcpy-sose/main/scrcpy-
 3. Open **Steam** while still in **Desktop Mode**.
 4. In the bottom-left corner of the Steam window, click on **Add a Game** and select **Add a Non-Steam Game...**.
 5. Search for **scrcpy-sose** and check its box, then click **Add Selected Programs**.
-6. Switch back to **Game Mode**, open your Steam Library under the **Non-Steam** tab, and you can now launch your phone mirroring directly from there.
+6. Hit **Play** and check your mobile for a notification about allowing USB Debugging.
+7. Select to always allow Debugging from this source and **OK**.
+8. Switch back to **Game Mode**, open your Steam Library under the **Non-Steam** tab, and you can now launch your phone mirroring directly from there.
 
 > [!TIP]
 > For use in Desktop Mode, navigate to `~/Desktop/scrcpy-sose`, double-click `run.sh` and Execute.
