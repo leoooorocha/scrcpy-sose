@@ -1,20 +1,26 @@
 # scrcpy-sose (scrcpy - SteamOS Edition)
 
-A lightweight, independent automation utility to easily install, auto-update, and run **scrcpy** on SteamOS (fully compatible with both Desktop Mode and Game Mode).
+A independent automation utility to easily install, auto-update, and run **scrcpy** on SteamOS (fully compatible with both Desktop and Gamemode).
 
 ---
 
 ### Disclaimer
 
-This script is an independent automation utility created for personal and community convenience. It has no official affiliation, endorsement, or connection with the original `scrcpy` project or its developers. Any credits go to them.
+This script is an independent automation utility created for personal and community convenience. It has no official affiliation, endorsement, or connection with the original **scrcpy** project or its developers. Any credits or endorsements go to them.
 - **Official scrcpy Repository:** [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
+
+---
+
+### About scrcpy
+*pronounced "**scr**een **c**o**py**"*
+- **scrcpy** is a lightweight, open-source application designed for screen mirroring and controlling Android devices connected via USB, offering high performance and low latency without requiring root access.
 
 ---
 
 ### Features
 
 - Checks for and downloads the latest official release from their official GitHub.
-- Creates a native `.desktop` shortcut that integrates seamlessly with the SteamOS and Gamescope environment.
+- Creates a native `.desktop` shortcut that integrates seamlessly with Gamescope environment.
 - Keeps all binaries neatly organized inside a dedicated folder on your Desktop within:
   `~/Desktop/scrcpy-sose`
 - If there is no internet connection, it safely launches the locally cached version.
@@ -42,6 +48,9 @@ curl -sSL https://raw.githubusercontent.com/leoooorocha/scrcpy-sose/main/scrcpy-
 5. Search for **scrcpy-sose** and check its box, then click **Add Selected Programs**.
 6. Switch back to **Game Mode**, open your Steam Library under the **Non-Steam** tab, and you can now launch your phone mirroring directly from there.
 
+> [!TIP]
+> For use in Desktop Mode, navigate to `~/Desktop/scrcpy-sose`, double-click `run.sh` and Execute.
+
 ---
 
 ### How to uninstall
@@ -49,7 +58,7 @@ curl -sSL https://raw.githubusercontent.com/leoooorocha/scrcpy-sose/main/scrcpy-
 1. Switch to **Desktop Mode** and open the folder `~/Desktop/scrcpy-sose`.
 2. Double-click `uninstall.sh` and Execute.
 3. Open **Steam** while still in **Desktop Mode**.
-4. Right-click on **scrcopy-sose**
+4. Right-click on **scrcpy-sose**
 5. Click on **Manage**, then click **Remove non-Steam game from your library**.
 
 ---
